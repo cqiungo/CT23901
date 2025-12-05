@@ -26,7 +26,7 @@ function ScoreText({ score, room, player }:any) {
     // Nếu không phải Host (là người chơi 2), xoay 180 độ (Math.PI) quanh trục Y
     if (!isHostView) {
       setRotation([0, Math.PI, 0]);
-      setPosition([18,10,0])
+      setPosition([10,10,0])
     } else {
       setRotation([0, 0, 0]);
     }
